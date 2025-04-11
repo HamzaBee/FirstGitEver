@@ -5,6 +5,7 @@ public class Main {
 
         callMe();
         printMe();
+        System.out.println(addSum(3,100));
 
         }
         public static void callMe(){
@@ -12,6 +13,13 @@ public class Main {
         }
         public static void printMe(){
             System.out.println("GJW9");
+        }
+        public static int addSum (int b, int c){
+            int a = b + c;
+           return a;
+
+
+
         }
         
 
