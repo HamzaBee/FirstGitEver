@@ -4,9 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         callMe();
-
+        printSomething();
         }
         public static void callMe(){
-            System.out.println("Hello World");
+
+        System.out.println("Hello World");
+        }
+        public static void printSomething(){
+            System.out.println("Hello Casablanca");
         }
     }
