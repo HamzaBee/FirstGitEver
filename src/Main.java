@@ -4,9 +4,15 @@ public class Main {
     public static void main(String[] args) {
 
         callMe();
+        printMe();
 
         }
         public static void callMe(){
             System.out.println("Hello World");
         }
+        public static void printMe(){
+            System.out.println("GJW9");
+        }
+        
+
     }
